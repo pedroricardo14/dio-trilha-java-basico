@@ -3,6 +3,8 @@ public class Operadores {
        // String nomeCompleto = "LINGUAGEM" + "JAVA";
       //  System.out.println(nomeCompleto);
 
+      /*
+
         String concatenacao = "?";
 
 
@@ -27,5 +29,18 @@ public class Operadores {
         System.out.println(concatenacao);  // 13
 
         // Cada etapa dessa foi para mostrar como funciona a concatenação de int com string, vice e versa.
+
+    */
+
+    int numero = 5;
+    numero = - numero;
+    //System.out.println(- numero);
+    System.out.println(numero);
+
+    numero = numero * -1;
+    // numero = + numero não funciona, pois o + é de uma função aritmética. Se quisermos converter, precisamos multiplicar por -1
+    System.out.println(numero);
+
+
     }
 }
