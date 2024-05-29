@@ -59,6 +59,7 @@ public class Operadores {
   //  System.out.println(variavel);
     // Esses são modos de converter um booleano de true para false e vice e versa.
 
+    /*
 
     int a, b;
     a = 6;
@@ -76,8 +77,43 @@ public class Operadores {
         resultado = "verdadeiro";
     else 
         resultado = "falso";
-    */
+    
 
     System.out.println(resultado);
+       
+
+    int numero1 = 1;
+    int numero2 = 2;
+
+    boolean simNao = numero1 == numero2;
+
+    if(numero1 < numero2){
+        System.out.println("A nossa condição é verdadeira");
+    }
+
+    System.out.println("numeroUm é igual a numeroDois? " + simNao);
+
+    simNao = numero1 != numero2;
+
+    System.out.println("numeroUm é diferente a numeroDois? " + simNao);
+    
+
+    simNao = numero1 > numero2;
+
+    System.out.println("numeroUm é maior que numeroDois? " + simNao);
+
+     */
+
+     String nomeUm = "PEDRO";
+    // String nomeDois = "PEDRO";
+    String nomeDois = new String("PEDRO");
+    // Se aqui fosse uma pegadinha, um novo objeto, aqui temos dois objetos na memória, esse new string e o main string args
+    // Quando falamos de números, a linguagem Java tem uma compreensão, que os números vão para um espaço da memória
+    // Quando esses valores são objetos, são aplicados de uma outra estrutura.
+    // Quando estamos falando de objetos ou textos, costumamos usar un método chamado .equals (compara conteúdos, se os dois conteúdos dos objetos são iguais)
+    // Para números podemos utilizar operadores relacionais, mas quando formos usar objetos, é interessante que a gente use o equals
+
+     //System.out.println(nomeUm == nomeDois);
+     System.out.println(nomeUm.equals(nomeDois));
     }
 }
