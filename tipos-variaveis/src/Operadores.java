@@ -53,10 +53,31 @@ public class Operadores {
     // A mesma regra funciona para decremenetar
     //System.out.println(numero);
 
-    boolean variavel = true;
+    //boolean variavel = true;
     //System.out.println(!variavel);
-    variavel = !variavel;
-    System.out.println(variavel);
+   // variavel = !variavel;
+  //  System.out.println(variavel);
     // Esses são modos de converter um booleano de true para false e vice e versa.
+
+
+    int a, b;
+    a = 6;
+    b = 6;
+    //String resultado = "";
+    // Forma abreviada de if else (operador ternário)
+    String resultado = a==b ? "verdadeiro" : "falso";
+    // Nessa primeira operação, sempre é uma expressão booleana, sempre verificar isso. Dependendo da expressão booleana são duas alternativas de resultado.
+    // Se a variável resultado é uma String, ele espera que os valores à retornar também sejam String, se fosse um inteiro, seria outro tipo de valor (ex: 1 ou 0)
+    // O operador ternário não se limita à String
+
+    /* 
+    Forma normal de if e else em java
+    if(a==b)
+        resultado = "verdadeiro";
+    else 
+        resultado = "falso";
+    */
+
+    System.out.println(resultado);
     }
 }
