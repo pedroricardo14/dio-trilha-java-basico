@@ -102,7 +102,7 @@ public class Operadores {
 
     System.out.println("numeroUm é maior que numeroDois? " + simNao);
 
-     */
+     
 
      String nomeUm = "PEDRO";
     // String nomeDois = "PEDRO";
@@ -115,5 +115,25 @@ public class Operadores {
 
      //System.out.println(nomeUm == nomeDois);
      System.out.println(nomeUm.equals(nomeDois));
+
+     */
+
+     boolean condicao1 = true;
+
+     boolean condicao2 = false;
+
+     /* */
+     if (condicao1 && (7 > 4)){
+        System.out.println("As duas condições são verdadeiras");
+     }
+
+     // funciona com valores booleano ou com relacional (maior ou igual...), pode mesclar com as relacionais que representam uma valoração/atribuição booleana. ex:
+     // if(condicao1 && (7>4)){}
+     
+
+     if(condicao1 || condicao2){
+        System.out.println("Uma das condições é verdadeira ");
+     }
+     System.out.println("fim");
     }
 }
